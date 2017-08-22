@@ -1,1 +1,1 @@
-export default from 'src/html-meta';
+export {default} from './src/html-meta';
