@@ -32,8 +32,8 @@ class HtmlMeta {
         }
     }
 
-    exists(name) {
-        return undefined !== this.tags[name];
+    has(name) {
+        return Boolean(this.tags[name]);
     }
 
     get(name) {
