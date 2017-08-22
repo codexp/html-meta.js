@@ -1,6 +1,6 @@
 # HtmlMeta utility
 
-this is a little utility to read from and write to html document's meta data.
+This is a little ES6 utility to read from and write to html document's meta data.
 
 ## Usage
 
@@ -8,6 +8,11 @@ this is a little utility to read from and write to html document's meta data.
 import HtmlMeta from 'html-meta';
 
 const meta = new HtmlMeta();
+
+// check
+console.log('charset?', meta.has('charset'));
+console.log('base?', meta.has('base'));
+console.log('unknown?', meta.has('unknown'));
 
 // read
 console.log('charset', meta.get('charset'));
