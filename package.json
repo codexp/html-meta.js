@@ -1,6 +1,6 @@
 {
   "name": "html-meta",
-  "version": "0.0.2",
+  "version": "0.1.0",
   "description": "html document meta data reader/writer utility",
   "main": "index.js",
   "repository": {
@@ -9,6 +9,7 @@
   },
   "keywords": [
     "base",
+    "es6",
     "head",
     "http",
     "http-equiv",
