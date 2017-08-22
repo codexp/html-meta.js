@@ -5,7 +5,9 @@ this is a little utility to read from and write to html document's meta data.
 ## Usage
 
 ```javascript
-import meta from "html-meta";
+import HtmlMeta from 'html-meta';
+
+const meta = new HtmlMeta();
 
 // read
 console.log('charset', meta.get('charset'));
